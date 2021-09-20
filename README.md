@@ -23,3 +23,16 @@ PS Y:\git\spa> .\env\Scripts\activate
 (env) PS Y:\git\spa> pip install -r requirements.txt
 (env) PS Y:\git\spa> python data_loader.py
 ```
+
+## Running your data loader
+For windows
+```
+(env) PS Y:\git\spa> python data_queryapp.py
+
+This will ask for option for which question you want to run you can choose either 1,2,3 or 4
+and pretty straightforward from there on.
+
+Note: All queries have been made case insensitive
+
+indexes used : restaurants.create_index([('address', TEXT)], default_language='english')
+```
